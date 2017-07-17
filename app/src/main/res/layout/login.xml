@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorMain">
+    <TextView
+        android:id="@+id/App_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/logo_size"
+        android:text="Digtal U-School"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with"
+        android:textSize="@dimen/Login"
+        android:layout_below="@id/App_Title"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Login_Text"
+        android:textColor="@color/colorWhite"
+
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login_Text"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Login_Button"
+        android:text="Facebook"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/fb_logo"
+        android:background="@drawable/rounded_button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Login_Button"
+        android:text="or"
+        android:id="@+id/Login_or"
+        android:textSize="@dimen/Login"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Login_or"
+        android:text="Leave"
+        android:textSize="@dimen/Login"
+        android:textColor="@color/colorWhite"
+        />
+</RelativeLayout>
